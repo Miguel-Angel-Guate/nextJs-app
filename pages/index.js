@@ -22,6 +22,12 @@ const Home = () => {
         <Link href='/posts' passHref>
             <button>Posts</button>
         </Link>
+        <Link href='/news' passHref>
+            <button>News</button>
+        </Link>
+        <Link href="/dashboard">
+        <button>Dashboard</button>
+        </Link>
     </div>
         )
 }
