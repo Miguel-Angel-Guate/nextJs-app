@@ -19,18 +19,20 @@ export default Post;
 export const getStaticPaths = async () => {
     return {
        
-            paths:[
-                {
-                params: {postId: '1'},
-            }, 
-            {
-                params: {postId: '2'},
-            }, 
-            {
-                params: {postId: '3'},
-            }, 
-        ],
-            fallback:false
+        //     paths:[
+        //         {
+        //         params: {postId: '1'},
+        //     }, 
+        //     {
+        //         params: {postId: '2'},
+        //     }, 
+        //     {
+        //         params: {postId: '3'},
+        //     }, 
+        // ],
+        //here is most easier to control id of link with this
+        paths: [],
+            fallback:'blocking'
     
     }
 }
