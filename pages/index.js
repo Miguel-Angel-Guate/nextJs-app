@@ -16,6 +16,12 @@ const Home = () => {
         <button>Product</button>
         </Link>
         <button onClick={handleClick}>Place holder</button>
+        <Link href="/users" passHref>
+            <button>Users</button>
+        </Link>
+        <Link href='/posts' passHref>
+            <button>Posts</button>
+        </Link>
     </div>
         )
 }
